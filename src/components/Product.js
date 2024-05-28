@@ -90,7 +90,7 @@ const Product = () => {
               }
               className="bg-black text-white py-3 px-6 active:bg-gray-800"
             >
-              add to cart
+              Thêm vào giỏ hàng
             </button>
           </div>
           <p className="text-base text-gray-500">

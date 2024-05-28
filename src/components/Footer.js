@@ -10,6 +10,7 @@ import {
 import { MdLocationOn } from "react-icons/md";
 import { BsPersonFill, BsPaypal } from "react-icons/bs";
 import { logoLight, paymentLogo } from "../assets";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,46 +23,50 @@ const Footer = () => {
           <div className="flex gap-5 text-lg text-gray-400">
             <ImGithub className="hover:text-white duration-300 cursor-pointer" />
             <FaYoutube className="hover:text-white duration-300 cursor-pointer" />
-            <FaFacebookF className="hover:text-white duration-300 cursor-pointer" />
+            <Link to="https://www.facebook.com/canweare201/">
+              <div>
+                <FaFacebookF className="hover:text-white duration-300 cursor-pointer" />
+              </div>
+            </Link>
+
             <FaTwitter className="hover:text-white duration-300 cursor-pointer" />
             <FaInstagram className="hover:text-white duration-300 cursor-pointer" />
           </div>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold text-white mb-4">Locate us</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Địa chỉ</h2>
           <div className="text-base flex flex-col gap-2">
             <p>FPT University</p>
-            <p>Mobile: 0368080707</p>
-            <p>Phone: 0368080707</p>
-            <p>e-mail: minhlqhe161101@fpt.edu.vn</p>
+            <p>Số điện thoại: 0368080707</p>
+            <p>E-mail: minhlqhe161101@fpt.edu.vn</p>
           </div>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold text-white mb-4">Profile</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Hồ sơ</h2>
           <div className="text-base flex flex-col gap-2">
             <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
               <span className="text-lg">
                 <BsPersonFill />
               </span>
-              my account
+              Tài khoản của tôi
             </p>
             <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
               <span className="text-lg">
                 <BsPaypal />
               </span>
-              checkout
+              Thanh toán
             </p>
             <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
               <span className="text-lg">
                 <FaHome />
               </span>
-              order tracking
+              Theo dõi đơn hàng
             </p>
             <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
               <span className="text-lg">
                 <MdLocationOn />
               </span>
-              help & support
+              Tư vấn và hỗ trợ
             </p>
           </div>
         </div>
@@ -72,7 +77,7 @@ const Footer = () => {
             placeholder="e-mail"
           />
           <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">
-            Subscribe
+            Đăng ký
           </button>
         </div>
       </div>

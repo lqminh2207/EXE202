@@ -39,11 +39,7 @@ const ProductsCard = ({ product }) => {
               {product.title.substring(0, 15)}
             </h2>
           </div>
-          <div className="text-sm relative w-28 flex justify-end overflow-hidden">
-            <div className="flex gap-2 transform group-hover:translate-x-24 transition-transform duration-500">
-              <p className="line-through text-gray-500">${product.oldPrice}</p>
-              <p className="font-semibold">${product.price}</p>
-            </div>
+          <div className="text-sm  flex justify-end overflow-hidden">
             <p
               onClick={() =>
                 dispatch(
@@ -57,9 +53,10 @@ const ProductsCard = ({ product }) => {
                   })
                 ) & toast.success(`${product.title} is added`)
               }
-              className="absolute z-20 w-[100px] text-gray-500 hover:text-gray-900 flex items-center gap-1 top-0 transform -translate-x-32 group-hover:translate-x-0 transition-transform cursor-pointer duration-500"
+              className="w-[180px] text-gray-500 hover:text-gray-900 flex items-center justify-end gap-1 cursor-pointer"
             >
-              add to cart
+              Thêm vào giỏ hàng
+              {/* add to cart */}
               <span>
                 <BsArrowRight />
               </span>
@@ -67,7 +64,11 @@ const ProductsCard = ({ product }) => {
           </div>
         </div>
         <div>
-          <p>{product.category}</p>
+          {/* <p>{product.category}</p> */}
+          <div className="flex gap-2">
+            <p className="line-through text-gray-500">${product.oldPrice}</p>
+            <p className="font-semibold">${product.price}</p>
+          </div>
         </div>
       </div>
       <div className="absolute top-4 right-0">

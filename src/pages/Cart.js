@@ -25,7 +25,7 @@ const Cart = () => {
     if (userInfo) {
       setPayNow(true);
     } else {
-      toast.error("Please sign in to Checkout");
+      toast.error("Vui lòng đăng nhập để thanh toán");
     }
   };
   const payment = async (token) => {
@@ -47,18 +47,17 @@ const Cart = () => {
           <CartItem />
           <div className="w-1/3 bg-[#fafafa] py-6 px-4">
             <div className=" flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6">
-              <h2 className="text-2xl font-medium ">cart totals</h2>
+              <h2 className="text-2xl font-medium ">Tổng tiền</h2>
               <p className="flex items-center gap-4 text-base">
-                Subtotal{" "}
+                Tổng phụ{" "}
                 <span className="font-titleFont font-bold text-lg">
                   ${totalAmt}
                 </span>
               </p>
               <p className="flex items-start gap-4 text-base">
-                Shipping{" "}
+                Vận chuyển{" "}
                 <span>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quos, veritatis.
+                  Giao hàng toàn quốc. Tới tất cả 63 tỉnh thành trên phạm vi lãnh thổ Việt Nam
                 </span>
               </p>
             </div>
@@ -69,7 +68,7 @@ const Cart = () => {
               onClick={handleCheckout}
               className="text-base bg-black text-white w-full py-3 mt-6 hover:bg-gray-800 duration-300"
             >
-              proceed to checkout
+              Thực hiện thanh toán
             </button>
             {payNow && (
               <div className="w-full mt-6 flex items-center justify-center">
@@ -89,15 +88,14 @@ const Cart = () => {
       ) : (
         <div className="max-w-screen-xl mx-auto py-10 flex flex-col items-center gap-2 justify-center">
           <p className="text-xl text-orange-600 font-titleFont font-semibold">
-            Your Cart is Empty. Please go back to Shopping and add products to
-            Cart.
+            Giỏ hàng trống. Vui lòng quay lại trang chủ và thêm sản phẩm vào giỏ hàng.
           </p>
           <Link to="/">
             <button className="flex items-center gap-1 text-gray-400 hover:text-black duration-300">
               <span>
                 <HiOutlineArrowLeft />
               </span>
-              go shopping
+              Tiếp tục mua hàng
             </button>
           </Link>
         </div>

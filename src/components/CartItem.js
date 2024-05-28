@@ -17,7 +17,7 @@ const CartItem = () => {
   return (
     <div className="w-2/3 pr-10">
       <div className="w-full">
-        <h2 className="font-titleFont text-2xl">shopping cart</h2>
+        <h2 className="font-titleFont text-2xl">Giỏ hàng</h2>
         <div>
           <div>
             {productData.map((item) => (
@@ -42,7 +42,7 @@ const CartItem = () => {
                 <h2 className="w-52">{item.title}</h2>
                 <p className="w-10">${item.price}</p>
                 <div className="w-52 flex items-center justify-between text-gray-500 gap-4 border p-3">
-                  <p className="text-sm">Quantity</p>
+                  <p className="text-sm">Số lượng</p>
                   <div className="flex items-center gap-4 text-sm font-semibold">
                     <span
                       onClick={() =>
@@ -91,7 +91,7 @@ const CartItem = () => {
             }
             className="bg-red-500 text-white mt-8 ml-7 py-1 px-6 hover:bg-red-800 duration-300"
           >
-            Reset Cart
+            Xóa giỏ hàng
           </button>
         </div>
       </div>
@@ -100,7 +100,7 @@ const CartItem = () => {
           <span>
             <HiOutlineArrowLeft />
           </span>
-          go shopping
+          Tiếp tục mua sắm
         </button>
       </Link>
       <ToastContainer
