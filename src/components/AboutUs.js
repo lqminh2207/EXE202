@@ -90,9 +90,9 @@ const AboutUs = () => {
               <div className="data w-full">
                 <h2
                   className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                  About us </h2>
+                  Về chúng tôi </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                Canweare xuất phát từ "canwear" với ý nghĩa ai cũng có thể mặc. Với mục tiêu chiếc áo phông không chỉ là trang phục mà còn là biểu tượng của niềm tự hào và tinh thần đồng đội mạnh mẽ trong cộng đồng sinh viên FPT. Đồng thời Canweare cũng lan toả một thông điệp là dù có khó khăn thử thách như thế nào chúng ta có thể làm được. 
+                  Canweare xuất phát từ "canwear" với ý nghĩa ai cũng có thể mặc. Với mục tiêu chiếc áo phông không chỉ là trang phục mà còn là biểu tượng của niềm tự hào và tinh thần đồng đội mạnh mẽ trong cộng đồng sinh viên FPT. Đồng thời Canweare cũng lan toả một thông điệp là dù có khó khăn thử thách như thế nào chúng ta có thể làm được.
                 </p>
               </div>
             </div>
@@ -108,15 +108,9 @@ const AboutUs = () => {
               <div className="data w-full">
                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                   className="block lg:hidden mb-9 mx-auto" />
-                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">We
-                  are Creative Since 2005</h2>
+                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">Giá trị cốt lõi</h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                  Pagedone isn’t just a collection of components and guidelines; it's a philosophy. We go
-                  beyond aesthetics, prioritizing accessibility, scalability, and usability. Every element,
-                  from the tiniest
-                  detail to the grandest layout, is meticulously crafted to enhance functionality and elevate
-                  user
-                  satisfaction.
+                  Brand luôn quan tâm đến trải nghiệm của khách hàng. Đảm bảo mỗi sản phẩm trước khi đến tay khách hàng đều phải trải qua quá trình kiểm định nghiêm ngặt để đạt chuẩn chất lượng cao. Mỗi đơn hàng của bạn đều được brand gói ghém cẩn thận. Không ngừng thu thập và phân tích ý kiến phản hồi từ khách hàng để không ngừng cải thiện sản phẩm và dịch vụ.
                 </p>
               </div>
             </div>
@@ -130,18 +124,17 @@ const AboutUs = () => {
 
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">Our results in numbers</h2>
+          <h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">Thành tựu</h2>
           <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div
               className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  240%
+                  95%
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                  <p className="text-xs text-gray-500 leading-5">Company's remarkable growth journey as we
-                    continually innovate and drive towards new heights of success.</p>
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Phản hồi tích cực</h4>
+                  <p className="text-xs text-gray-500 leading-5">Các sản phẩm của Canweare nhận được khá nhiều phản hồi tích cực về chất lượng áo cũng như thiết kế</p>
                 </div>
               </div>
             </div>
@@ -149,12 +142,11 @@ const AboutUs = () => {
               className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  175+
+                  30+
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                  <p className="text-xs text-gray-500 leading-5">Our very talented team members are the powerhouse
-                    of pagedone and pillars of our success. </p>
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Thiết kế</h4>
+                  <p className="text-xs text-gray-500 leading-5">Hàng loạt các mẫu áo được thiết kế dành riêng đặc biệt cho các chuyên ngành và câu lạc bộ nhằm tạo sự đa dạng.</p>
                 </div>
               </div>
             </div>
@@ -162,12 +154,11 @@ const AboutUs = () => {
               className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  625+
+                  500+
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>
-                  <p className="text-xs text-gray-500 leading-5">We have accomplished more than 625 projects
-                    worldwide and we are still counting many more.</p>
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Đơn hàng</h4>
+                  <p className="text-xs text-gray-500 leading-5">Đợt mở bán đầu tiên nhận được rất nhiều sự ủng hộ từ khách hàng.</p>
                 </div>
               </div>
             </div>
@@ -178,7 +169,7 @@ const AboutUs = () => {
       <section className=" py-14 lg:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="mb-16 rounded-full">
-            <h2 className="text-4xl font-manrope font-bold text-gray-900 text-center">What our happy user says!</h2>
+            <h2 className="text-4xl font-manrope font-bold text-gray-900 text-center">Phản hồi từ khách hàng!</h2>
           </div>
 
           <div style={{ "--swiper-navigation-color": "#fff", "--swiper-pagination-color": "#fff", overflow: "hidden" }} className="swiper mySwiper2">
@@ -187,13 +178,8 @@ const AboutUs = () => {
                 <div className="relative mb-20">
                   <div className="max-w-max mx-auto lg:max-w-4xl">
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-                      I have been using pagedone for several months now, and I must say that it has made my life a lot
-                      easier. The
-                      platform's intuitive interface and ease of use have allowed me to manage my finances more effectively
-                      and
-                      make informed investment decisions. I particularly like the product's auto-tracking feature, which has
-                      saved
-                      me a lot of time and effort.
+                      Mình được biết đến thương hiệu Canweare đầu tiên qua giới thiệu của bạn bè cùng lớp, lúc đó mình cũng không kích thích lắm để mua hàng vì mình nghĩ hàng thời trang do bạn mình tự tay làm thì sẽ không có gì quá nổi bật. Sau đó mình được cho xem mẫu và mình thấy khá ấn tượng. Áo được thiết kế dựa trên linh vật của trường và có những mẫu được thiết kế riêng cho từng ngành học và câu lạc bộ.
+                      Mình thấy có mẫu áo về CLB Street Workout của trường nên mình đã mua luôn mẫu này và mình sẽ rủ những bạn khác trong CLB mua chung.
                     </p>
                   </div>
                 </div>
@@ -202,13 +188,7 @@ const AboutUs = () => {
                 <div className="relative mb-20">
                   <div className="max-w-max mx-auto lg:max-w-4xl">
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-                      I have been using pagedone for several months now, and I must say that it has made my life a lot
-                      easier. The
-                      platform's intuitive interface and ease of use have allowed me to manage my finances more effectively
-                      and
-                      make informed investment decisions. I particularly like the product's auto-tracking feature, which has
-                      saved
-                      me a lot of time and effort.
+                      Sản phẩm mình nhận về vải dày hơn cotton thường rất nhiều và cảm giác trên tay cao cấp. Qua các lần giặt không bị bai như sản phẩm cotton thường khác. Khả năng hút mồ hôi tốt và cảm giác mặc khá mát
                     </p>
                   </div>
                 </div>
@@ -217,13 +197,7 @@ const AboutUs = () => {
                 <div className="relative mb-20">
                   <div className="max-w-max mx-auto lg:max-w-4xl">
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-                      I have been using pagedone for several months now, and I must say that it has made my life a lot
-                      easier. The
-                      platform's intuitive interface and ease of use have allowed me to manage my finances more effectively
-                      and
-                      make informed investment decisions. I particularly like the product's auto-tracking feature, which has
-                      saved
-                      me a lot of time and effort.
+                      Nhìn chung thì ý tưởng và thiết kế khá là bắt mắt. Nhưng mình thấy hình in nên cải thiện về chất lượng để phù hợp với số đông.
                     </p>
                   </div>
                 </div>
@@ -255,18 +229,16 @@ const AboutUs = () => {
       <section className="py-20 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="bg-indigo-600 rounded-2xl p-8 xl:p-11">
-            <h2 className="font-manrope text-4xl text-white text-center font-bold mb-4">Subscribe to the latest offer
+            <h2 className="font-manrope text-4xl text-white text-center font-bold mb-4">Đăng ký nhận thông tin
             </h2>
-            <p className="text-indigo-200 text-center mb-11 max-lg:max-w-2xl mx-auto">Join our community of subscribers
-              and receive regular
-              updates delivered straight to your inbox. It's quick, easy, and free</p>
+            <p className="text-indigo-200 text-center mb-11 max-lg:max-w-2xl mx-auto">Tham gia cộng đồng người đăng ký của chúng tôi và nhận thông tin cập nhật thường xuyên được gửi thẳng đến hộp thư đến của bạn. Thật nhanh chóng, dễ dàng và miễn phí</p>
             <div
               className="max-w-md mx-auto lg:bg-transparent lg:border border-gray-300 rounded-3xl max-lg:py-3 lg:rounded-full lg:h-12 lg:p-1.5 lg:flex-row gap-6 lg:gap-0 flex-col flex items-center justify-between">
               <input type="text" name="email"
                 className="py-2 px-6 bg-transparent rounded-full max-lg:border border-gray-300  text-gray-100 max-lg:text-center placeholder:text-gray-400 focus:outline-none flex-1 w-full lg:w-auto lg:py-2 lg:px-6 lg:bg-transparent"
                 placeholder="Enter your email.." />
               <button type="submit"
-                className="py-2 px-5 text-sm bg-indigo-500 shadow-md rounded-full  text-white font-semibold hover:bg-indigo-700">Subscribe</button>
+                className="py-2 px-5 text-sm bg-indigo-500 shadow-md rounded-full  text-white font-semibold hover:bg-indigo-700">Đăng ký</button>
             </div>
           </div>
         </div>
