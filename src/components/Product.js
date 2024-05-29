@@ -4,6 +4,7 @@ import { MdOutlineStar } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/bazarSlice";
 import { ToastContainer, toast } from "react-toastify";
+import { splitMoneyByComma } from "./CartItem";
 
 const Product = () => {
   const dispatch = useDispatch();
@@ -36,10 +37,10 @@ const Product = () => {
             <h2 className="text-4xl font-semibold">{details.title}</h2>
             <div className="flex items-center gap-4 mt-3">
               <p className="line-through font-base text-gray-500">
-                ${details.oldPrice}
+                {details.oldPrice} đ
               </p>
               <p className="text-2xl font-medium text-gray-900">
-                ${details.price}
+                {splitMoneyByComma(details.price)} đ
               </p>
             </div>
           </div>

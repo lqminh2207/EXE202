@@ -3,7 +3,7 @@ import { HiOutlineArrowLeft } from "react-icons/hi";
 import { useSelector } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import { Link } from "react-router-dom";
-import CartItem from "../components/CartItem";
+import CartItem, { splitMoneyByComma } from "../components/CartItem";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 
@@ -51,7 +51,7 @@ const Cart = () => {
               <p className="flex items-center gap-4 text-base">
                 Tổng phụ{" "}
                 <span className="font-titleFont font-bold text-lg">
-                  ${totalAmt}
+                  {splitMoneyByComma(totalAmt)} đ
                 </span>
               </p>
               <p className="flex items-start gap-4 text-base">
@@ -62,7 +62,7 @@ const Cart = () => {
               </p>
             </div>
             <p className="font-titleFont font-semibold flex justify-between mt-6">
-              Total <span className="text-xl font-bold">${totalAmt}</span>
+              Tổng tiền <span className="text-xl font-bold">{splitMoneyByComma(totalAmt)} đ</span>
             </p>
             <button
               onClick={handleCheckout}
@@ -77,7 +77,7 @@ const Cart = () => {
                   name="Exe Online Shopping"
                   amount={totalAmt * 100}
                   label="Pay to Exe"
-                  description={`Your Payment amount is $${totalAmt}`}
+                  description={`Tổng số tiền phải thanh toán là ${splitMoneyByComma(totalAmt)} đ`}
                   token={payment}
                   email={userInfo.email}
                 />

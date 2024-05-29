@@ -4,6 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/bazarSlice";
 import { ToastContainer, toast } from "react-toastify";
+import { splitMoneyByComma } from "./CartItem";
 
 const ProductsCard = ({ product }) => {
   const dispatch = useDispatch();
@@ -66,8 +67,8 @@ const ProductsCard = ({ product }) => {
         <div>
           {/* <p>{product.category}</p> */}
           <div className="flex gap-2">
-            <p className="line-through text-gray-500">${product.oldPrice}</p>
-            <p className="font-semibold">${product.price}</p>
+            <p className="line-through text-gray-500">{product.oldPrice} đ</p>
+            <p className="font-semibold">{splitMoneyByComma(product.price)} đ</p>
           </div>
         </div>
       </div>

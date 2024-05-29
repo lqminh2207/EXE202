@@ -2,27 +2,29 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Banner from "./components/Banner";
 import Products from "./components/Products";
+import { ao1, ao2 } from "./assets";
+
 const prod = [
   {
     "_id": 1,
     "title": "Long sleeve Jacket",
     "isNew": true,
-    "oldPrice": "200",
-    "price": 150,
+    "oldPrice": "300.000",
+    "price": 159000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
-    "category": "women",
-    "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "rating": 4
+    "category": "Ngành truyền thông",
+    "image": ao1,
+    "rating": 5
   },
   {
     "_id": 2,
     "title": "Long sleeve Jacket",
     "isNew": true,
-    "oldPrice": "200",
-    "price": 150,
+    "oldPrice": "320,000",
+    "price": 169000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
-    "category": "women",
-    "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "CLB Street Workout",
+    "image": ao2,
     "rating": 4
   },
 ];
