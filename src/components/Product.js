@@ -54,7 +54,7 @@ const Product = () => {
             </div>
             <p className="text-xs text-gray-500">(1 Customer review)</p>
           </div>
-          <p className="text-base text-gray-500 -mt-3">{details.description}</p>
+          <div className="text-base text-gray-500 -mt-3" dangerouslySetInnerHTML={{ __html: details.description }}/>
           <div className="flex gap-4">
             <div className="w-52 flex items-center justify-between text-gray-500 gap-4 border p-3">
               <p className="text-sm">Quantity</p>
@@ -87,7 +87,7 @@ const Product = () => {
                     quantity: baseQty,
                     description: details.description,
                   })
-                ) & toast.success(`${details.title} is added`)
+                ) & toast.success(`${details.title} đã được thêm vào giỏ hàng`)
               }
               className="bg-black text-white py-3 px-6 active:bg-gray-800"
             >

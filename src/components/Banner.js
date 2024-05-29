@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
+import { banner1, banner2, banner3, banner4 } from "../assets";
 
 const Banner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
-    "https://amazonproone.vercel.app/static/media/img2.bc1bdb910ead16c65197.jpg",
-    "https://amazonproone.vercel.app/static/media/img5.aa945e25375bfdee385f.jpg",
-    "https://amazonproone.vercel.app/static/media/img3.c80809bb40bee5c34372.jpg",
-    "https://amazonproone.vercel.app/static/media/img1.efb3d39101f7ef77d616.jpg",
+    banner1,
+    banner2,
+    banner3,
+    banner4,
   ];
   const prevSlide = () => {
     setCurrentSlide(currentSlide === 0 ? 3 : (prev) => prev - 1);

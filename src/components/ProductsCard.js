@@ -37,7 +37,7 @@ const ProductsCard = ({ product }) => {
         <div className="flex justify-between items-center">
           <div>
             <h2 className="font-titleFont text-base font-bold">
-              {product.title.substring(0, 15)}
+              {product.title}
             </h2>
           </div>
           <div className="text-sm  flex justify-end overflow-hidden">
@@ -52,7 +52,7 @@ const ProductsCard = ({ product }) => {
                     quantity: 1,
                     description: product.description,
                   })
-                ) & toast.success(`${product.title} is added`)
+                ) & toast.success(`${product.title} đã được thêm vào giỏ hàng`)
               }
               className="w-[180px] text-gray-500 hover:text-gray-900 flex items-center justify-end gap-1 cursor-pointer"
             >

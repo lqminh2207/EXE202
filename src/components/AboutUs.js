@@ -73,9 +73,7 @@ const AboutUs = () => {
             className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl  text-gray-900 mb-5 md:text-5xl md:leading-normal">
             <span className="text-indigo-600">Canweare</span>
           </h1>
-          <p className="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">Invest
-            intelligently
-            and discover a better way to manage your entire wealth easily.</p>
+          <p className="mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">Sứ mệnh của brand áo phông được thiết kế riêng cho sinh viên FPT là tạo ra không chỉ là những sản phẩm thời trang chất lượng cao, mà còn là những biểu tượng văn hoá. Biểu tượng quen thuộc của sinh viên FPT là cóc vàng nên hình ảnh con cóc sẽ là hình ảnh chủ đạo. Chúng mình hướng đến là mẫu áo dành riêng cho các ngành.</p>
 
 
         </div>
@@ -92,14 +90,9 @@ const AboutUs = () => {
               <div className="data w-full">
                 <h2
                   className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                  About
-                  Us </h2>
+                  About us </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                  Driven by a passion for seamless user experiences, we've meticulously curated pagedone
-                  to empower creators, designers, and developers alike. Our mission is to provide a
-                  comprehensive toolkit,
-                  enabling you to build intuitive, beautiful interfaces that resonate with users on every
-                  interaction.
+                Canweare xuất phát từ "canwear" với ý nghĩa ai cũng có thể mặc. Với mục tiêu chiếc áo phông không chỉ là trang phục mà còn là biểu tượng của niềm tự hào và tinh thần đồng đội mạnh mẽ trong cộng đồng sinh viên FPT. Đồng thời Canweare cũng lan toả một thông điệp là dù có khó khăn thử thách như thế nào chúng ta có thể làm được. 
                 </p>
               </div>
             </div>
