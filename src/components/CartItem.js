@@ -92,7 +92,7 @@ const CartItem = () => {
           </div>
           <button
             onClick={() =>
-              dispatch(resetCart()) & toast.error("Your Cart is Empty!")
+              dispatch(resetCart()) & toast.error("Giỏ hàng trống!")
             }
             className="bg-red-500 text-white mt-8 ml-7 py-1 px-6 hover:bg-red-800 duration-300"
           >

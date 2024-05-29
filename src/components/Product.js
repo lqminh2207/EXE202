@@ -40,7 +40,7 @@ const Product = () => {
                 {details.oldPrice} đ
               </p>
               <p className="text-2xl font-medium text-gray-900">
-                {splitMoneyByComma(details.price)} đ
+                {splitMoneyByComma(Number(details.price))} đ
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Product = () => {
             </button>
           </div>
           <p className="text-base text-gray-500">
-            Category:{" "}
+            Phân loại:{" "}
             <span className="font-medium capitalize">{details.category}</span>
           </p>
         </div>

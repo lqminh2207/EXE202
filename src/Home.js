@@ -9,7 +9,7 @@ const prod = [
     "_id": 1,
     "title": "Long sleeve Jacket",
     "isNew": true,
-    "oldPrice": "300.000",
+    "oldPrice": "300,000",
     "price": 159000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
     "category": "Ngành truyền thông",
@@ -28,6 +28,7 @@ const prod = [
     "rating": 4
   },
 ];
+
 const Home = () => {
   const [products, setProducts] = useState([]);
   const data = useLoaderData();

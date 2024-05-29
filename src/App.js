@@ -12,6 +12,7 @@ import Product from "./components/Product";
 import Home from "./Home";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
+import AboutUs from "./components/AboutUs";
 
 const Layout = () => {
   return (
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         loader: productsData,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
       },
       {
         path: "/product/:id",
