@@ -121,7 +121,7 @@ const prod = [
     "title": "Cóc gymer",
     "isNew": true,
     "oldPrice": "330,000",
-    "price": 25600,
+    "price": 256000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao9,
