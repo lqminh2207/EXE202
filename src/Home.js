@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Banner from "./components/Banner";
 import Products from "./components/Products";
-import { ao1, ao2, ao3, ao4, ao5, ao6, ao7 } from "./assets";
+import { ao1, ao2, ao3, ao4, ao5, ao6, ao7, ao8, ao9 } from "./assets";
 
 const des1 = `<div class="product-info">
 <h2 class="product-title"><b>Mô tả sản phẩm</b></h2>
@@ -33,7 +33,7 @@ const prod = [
     "title": "Cóc truyền thông",
     "isNew": true,
     "oldPrice": "300,000",
-    "price": 159000,
+    "price": 259000,
     "description": des1,
     "category": "Ngành truyền thông",
     "image": ao1,
@@ -44,7 +44,7 @@ const prod = [
     "title": "Cóc gymer",
     "isNew": true,
     "oldPrice": "360,000",
-    "price": 219000,
+    "price": 249000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao2,
@@ -54,8 +54,8 @@ const prod = [
     "_id": 3,
     "title": "Cóc gymer",
     "isNew": true,
-    "oldPrice": "320,000",
-    "price": 169000,
+    "oldPrice": "330,000",
+    "price": 253000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao3,
@@ -65,8 +65,8 @@ const prod = [
     "_id": 4,
     "title": "Cóc gymer",
     "isNew": true,
-    "oldPrice": "320,000",
-    "price": 169000,
+    "oldPrice": "360,000",
+    "price": 259000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao4,
@@ -77,7 +77,7 @@ const prod = [
     "title": "Cóc gymer",
     "isNew": true,
     "oldPrice": "320,000",
-    "price": 169000,
+    "price": 249000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao5,
@@ -87,8 +87,8 @@ const prod = [
     "_id": 6,
     "title": "Cóc gymer",
     "isNew": true,
-    "oldPrice": "320,000",
-    "price": 169000,
+    "oldPrice": "300,000",
+    "price": 259000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao6,
@@ -98,11 +98,33 @@ const prod = [
     "_id": 7,
     "title": "Cóc gymer",
     "isNew": true,
-    "oldPrice": "320,000",
-    "price": 169000,
+    "oldPrice": "310,000",
+    "price": 249000,
     "description": des1,
     "category": "CLB Street Workout",
     "image": ao7,
+    "rating": 5
+  },
+  {
+    "_id": 8,
+    "title": "Cóc gymer",
+    "isNew": true,
+    "oldPrice": "320,000",
+    "price": 269000,
+    "description": des1,
+    "category": "CLB Street Workout",
+    "image": ao8,
+    "rating": 5
+  },
+  {
+    "_id": 9,
+    "title": "Cóc gymer",
+    "isNew": true,
+    "oldPrice": "330,000",
+    "price": 25600,
+    "description": des1,
+    "category": "CLB Street Workout",
+    "image": ao9,
     "rating": 5
   },
 ];
