@@ -41,7 +41,7 @@ const prod = [
   },
   {
     "_id": 2,
-    "title": "Cóc gymer",
+    "title": "Ethan - Mạnh mẽ, kiên định",
     "isNew": true,
     "oldPrice": "360,000",
     "price": 249000,
@@ -52,7 +52,7 @@ const prod = [
   },
   {
     "_id": 3,
-    "title": "Cóc gymer",
+    "title": "Chloe sự sống sinh sôi, nảy nở",
     "isNew": true,
     "oldPrice": "330,000",
     "price": 253000,
@@ -63,7 +63,7 @@ const prod = [
   },
   {
     "_id": 4,
-    "title": "Cóc gymer",
+    "title": "Adira mạnh mẽ, can đảm, hùng mạnh",
     "isNew": true,
     "oldPrice": "360,000",
     "price": 259000,
@@ -74,7 +74,7 @@ const prod = [
   },
   {
     "_id": 5,
-    "title": "Cóc gymer",
+    "title": "Luna - Mặt trăng",
     "isNew": true,
     "oldPrice": "320,000",
     "price": 249000,
@@ -85,7 +85,7 @@ const prod = [
   },
   {
     "_id": 6,
-    "title": "Cóc gymer",
+    "title": "Vǔ Tíng (Yǔ Tíng) - tươi đẹp",
     "isNew": true,
     "oldPrice": "300,000",
     "price": 259000,
@@ -96,7 +96,7 @@ const prod = [
   },
   {
     "_id": 7,
-    "title": "Cóc gymer",
+    "title": "Carla chiến binh",
     "isNew": true,
     "oldPrice": "310,000",
     "price": 249000,
@@ -107,7 +107,7 @@ const prod = [
   },
   {
     "_id": 8,
-    "title": "Cóc gymer",
+    "title": "Cóc coder",
     "isNew": true,
     "oldPrice": "320,000",
     "price": 269000,
@@ -118,7 +118,7 @@ const prod = [
   },
   {
     "_id": 9,
-    "title": "Cóc gymer",
+    "title": "Cóc coder",
     "isNew": true,
     "oldPrice": "330,000",
     "price": 256000,
